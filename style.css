@@ -5,14 +5,61 @@
 a{
     text-decoration: none;
 }
-kbd{
-    border: 1px solid red;
-    width: 4em;
-    height: 4em;
+body{
+    height: 100vh;
+    background-image: url(./wall.png);
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#jjtt{
+    display: inline-block;
+}
+main .wrapper > div:nth-child(2){
+    margin-left: -22px;
+}
+main .wrapper > div:nth-child(3){
+    margin-left: -80px;
+}
+.wrapper .row{
+    margin: 20px 0px;
+}
+.key{
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to bottom, #292929 0%,#111111 100%);
+    border-radius: 5px;
+    border: 1px solid #373737;
+    color: #c5c5c5;
+    box-shadow: 0 0 0 1px #1A1B1C, 0 0 0 2px #1f2020, 0 3px 0 2px #080808;
     display: inline-block;
     text-transform: uppercase;
     position: relative;
+    font-size: 16px;
+    font-family: Helvetica;
+    margin: 0 10px;
 }
+.key .img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 4px;
+    bottom: 2px;
+}
+.key .span{
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
 kbd:hover > button{
     display: inline-block;
 }
@@ -22,15 +69,4 @@ kbd > button {
     bottom: 0;
     display: none;
 }
-main{
-    text-align: center;
-}
-#jjtt{
-    display: inline-block;
-}
-main .wrapper > div:nth-child(2){
-    margin-left: 1em;
-}
-main .wrapper > div:nth-child(3){
-    margin-left: 2em;
-}
+
