@@ -7,7 +7,7 @@ a{
 }
 body{
     height: 100vh;
-    background-image: url(./wall.png);
+    background-image: url(./wall.jpg);
     background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
