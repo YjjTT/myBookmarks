@@ -124,18 +124,21 @@ function init() {
     length: 3
   };
   var hash = {
+    c: "https://ktfootball.coding.net/p/KTFootball_miniprogram",
     q: "qq.com",
     w: "weibo.com",
     e: "ele.me",
     r: "renren.com",
-    t: "tianya.com",
+    t: "https://www.teambition.com/project/589aec44584038876cbfa6ff/tasks/scrum/5bdab95699ffb700181b42fe",
     y: "youtube.com",
     u: "uc.com",
     i: "iqiyi.com",
     o: "opera.com",
     p: undefined,
     a: "acfun.com",
-    s: "sohu.com"
+    s: "sohu.com",
+    k: "https://www.ktfootball.com/admin/index",
+    x: "http://47.103.38.90/#/login"
   };
   var hashInLocalStorage = getFromLocalStorage("uuu");
   if (hashInLocalStorage) {
